@@ -1,5 +1,6 @@
 // Your code goes here
-document.addEventListener("DOMContentLoaded", function() {
-    const element = document.querySelector("#main"); 
-    element.textContent = "This is really cool!"; 
+document.addEventListener("DOMContentLoaded", function () {
+    const paragraph = document.getElementById("text");
+
+    paragraph.textContent = "This is really cool!";
 });
